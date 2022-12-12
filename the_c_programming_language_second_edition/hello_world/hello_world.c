@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-int main(void) {
-    int user_num;
+main() {
     printf("Hello World!\n");
-    return 0;
 }
