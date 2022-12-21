@@ -16,6 +16,6 @@ int main(void)
         /* Delete .txt */
     /* Farewell to user */
     farewell();
-    
+    /* Exit main */
     return EXIT_SUCCESS;
 }
