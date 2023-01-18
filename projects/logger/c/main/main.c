@@ -11,11 +11,13 @@ int main(void)
     greeting(version_number);
     /* Prompt for command */
         /* Create .txt */
+        FILE *fp = create_txt_file();
         /* Read .txt */
         /* Update .txt */
         /* Delete .txt */
     /* Farewell to user */
     farewell();
+    fclose(fp);
     /* Exit main */
     return EXIT_SUCCESS;
 }

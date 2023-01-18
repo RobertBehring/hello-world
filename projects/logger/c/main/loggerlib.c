@@ -23,7 +23,13 @@ void farewell(void)
     CRLF;
 }
 
-void create_txt_file(void);
+FILE* create_txt_file(void)
+{
+    FILE *fp;
+    char file_name[] = "test.txt";
+    fp = fopen(file_name, "w");
+    return fp;
+}
 void read_txt_file(void);
 void update_txt_file(void);
 void delete_txt_file(void);
