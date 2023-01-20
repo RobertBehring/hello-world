@@ -13,6 +13,7 @@ int main(void)
         /* Create .txt */
         FILE *fp = create_txt_file();
         /* Read .txt */
+        read_txt_file(fp);
         /* Update .txt */
         /* Delete .txt */
     /* Farewell to user */
